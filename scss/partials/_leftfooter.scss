@@ -1,0 +1,100 @@
+.footer{
+  @media screen and (min-width:769px){
+    display: block;
+    float: left;
+  }
+  img{
+    display: block;
+    padding-top: 35px;
+    margin-left: 44px;
+      @media screen and (min-width:769px){
+        display: block;
+        position: absolute;
+        padding-top:0;
+        margin-left:0;
+      }
+    }
+    .textBottom{
+      float: right;
+      margin-top: -32px;
+      @media screen and (min-width:769px){
+        display: block;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 20px;
+      }
+      p{
+        text-decoration: none;
+        font-family:$font-base;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color:$white;
+        padding: -5px 0;
+        margin: 5px 0;
+        text-align: right;
+        margin-top: -10px;
+          @media screen and (min-width:769px){
+          text-decoration: none;
+          font-family:$font-base;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 24px;
+          letter-spacing: 0.5px;
+          color:$white;
+          padding: -5px 0;
+          margin: 5px 0;
+          }
+        }
+      }
+      .navfooter{
+        @media screen and (min-width:769px){
+          display: none;
+        }
+        ul{
+          display: flex;
+          list-style-type: none;
+          padding-left: 0;
+          li{
+            margin-left: 10px;
+            margin-right: 10px;
+            a{
+              text-decoration: none;
+              font-family:$font-base;
+              font-size: 20px;
+              font-weight: 300;
+              line-height: 24px;
+              letter-spacing: 0.5px;
+              color:$white;
+            }
+          }
+        }
+      }
+      .list{
+        display: none;
+        @media screen and (min-width:769px){
+          display: block;
+          margin-top: 60px;
+          float:left;
+        }
+        ul{
+          list-style-type: none;
+          padding: 10px 0;
+            .navNew{
+            padding-left: 10px;
+            }
+          li{
+            a{
+              text-decoration: none;
+              font-family:$font-base;
+              font-size: 12px;
+              font-weight: 300;
+              line-height: 24px;
+              letter-spacing: 0.5px;
+              color:$white;
+            }
+          }
+        }
+      }
+    }

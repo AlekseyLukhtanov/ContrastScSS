@@ -1,0 +1,16 @@
+.baner{
+  background-image: url(../images/baner.png);
+  display: block;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  overflow: visible;
+  margin: 0 auto;
+  position: relative;
+  opacity: 0.7;
+  @media screen and (min-width:769px){
+    opacity: 0.9;
+  }
+}

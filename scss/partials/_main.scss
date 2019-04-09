@@ -1,0 +1,81 @@
+main{
+  position: relative;
+  .romb{
+    display: block;
+    position: absolute;
+    top: -639px;
+    left: -380px;
+    @media screen and (min-width:769px){
+      display: block;
+      position: absolute;
+      top: -640px;
+      left: -151px;
+      }
+    }
+    .mainText{
+      background-color:$fone-text;
+      padding: 20px 0;
+      @media screen and (min-width:769px){
+        display:flex;
+        padding: 0 120px;
+      }
+      div.logomain{
+        display: block;
+        position: relative;
+        padding: 0 150px;
+        @media screen and (min-width:769px){
+          display: block;
+          width: 35%;
+          background-color:$fone-text;
+          img{
+            display: block;
+            @media screen and (min-width:769px){
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 266px;
+            height: 206px;
+            margin-top: 59px;
+            margin-left: -118px;
+          }
+        }
+      }
+    }
+    .text{
+      position: relative;
+        @media screen and (min-width:769px){
+          width: 65%;
+          float: right;
+        }
+        p{
+          display: block;
+          font-size: 18px;
+          font-weight: 300;
+          letter-spacing: 0.18px;
+          @media screen and (min-width:769px){
+            display: block;
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 0.18px;
+          }
+        }
+        li{
+          color:$blue;
+          span{
+            color:#000;
+            font-family: $font-base;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0.18px;
+            @media screen and (min-width:769px){
+              color:#000;
+              font-family: $font-base;
+              font-size: 24px;
+              font-weight: 300;
+              letter-spacing: 0.18px;
+            }
+          }
+        }
+      }
+    }
+  }

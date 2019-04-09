@@ -1,0 +1,162 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  &:focus {
+
+  }
+  &::placeholder {
+
+  }
+}
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.mainButton{
+  width:$mainButton-width;
+  height:$mainButton-height;
+  display: inline-block;
+  text-decoration: none;
+  border-radius:3px;
+  transition: all .3s ease-out;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 18px 5px;
+  background-color:$mainButton-bg;
+  color:$white;
+  font-size:24px;
+  text-align: center;
+  font-family: $font-base;
+}
+.banerButtom{
+  display: block;
+  position: absolute;
+  text-decoration: none;
+  right: 35px;
+  font-family:$font-base;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.3px;
+  padding: 7px 25px;
+  background-color:$white;
+}
+h1{
+  font-size: 40px;
+  font-family:$font-base;
+  color: $white;
+  letter-spacing: 0.6px;
+  font-weight: normal;
+  @media screen and (min-width:769px){
+    font-size: 78px;
+    font-family:$font-base;
+    color: $white;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+}
+h3{
+color:$black;
+font-family:$font-base;
+font-size: 30px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+@media screen and (min-width:769px){
+  color:$black;
+  font-family:$font-base;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+}
+h4{
+  color:$black;
+  font-family:$font-base;
+  font-size: 18px;
+  margin: 25px 0 0 0;
+  @media screen and (min-width:769px){
+    color:$black;
+    font-family:$font-base;
+    font-size: 24px;
+    margin: 25px 0 0 0;
+  }
+}
+.seller , .customer , .rent{
+  padding: 0 30px 0 30px;
+  font-family: $font-base;
+  img{
+    display: block;
+    width: 10px;
+    height: 10px;
+  }
+  p{
+    @media screen and (min-width:769px){
+    color:$black;
+    font-family:$font-base;
+    font-size: 20px;
+    margin: 25px 0 0 0;
+ }
+  }
+  span{
+    @media screen and (min-width:769px){
+    color:$black;
+    font-family:$font-base;
+    font-size: 20px;
+    margin: 25px 0 0 0;
+ }
+  }
+  ul{
+    li{
+       list-style-type: none;
+      img{
+        display: block;
+        float: left;
+        margin-left: -30px;
+      }
+    }
+  }
+  a{
+    display: block;
+    margin: 30px auto;
+  }
+}
+.footbottom{
+  display: block;
+  background-color: $blue;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  color: #fff;
+  padding: 15px 52px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.formInput{
+  width:420px ;
+  height:80px ;
+  border-radius:5px;
+  margin-bottom: 35px;
+}
+.buttomCall{
+  border: 4px;
+  border-radius: 4px;
+  border-color: $white;
+}
+.loyut{
+  padding: 0 30px;
+}

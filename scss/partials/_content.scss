@@ -1,0 +1,120 @@
+.content{
+  @media screen and (min-width:769px){
+    display:block;
+    float: right;
+  }
+  .information{
+    text-align: right;
+    @media screen and (min-width:769px){
+    }
+    p{
+      text-decoration: none;
+      font-family:$font-base;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      color:$white;
+      @media screen and (min-width:769px){
+        text-decoration: none;
+        font-family:$font-base;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color:$white;
+      }
+    }
+  }
+  .contacts{
+    display: block;
+    float: right;
+    text-align: right;
+    margin-bottom: 10px;
+    width: 150px;
+    @media screen and (min-width:769px){
+    }
+    p{
+      margin:0;
+      text-decoration: none;
+      font-family:$font-base;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      color:$white;
+    }
+  }
+  .map{
+    display: block;
+    float: left;
+    padding-bottom: 30px;
+    @media screen and (min-width:769px){
+      display:none;
+    }
+  }
+  .timeWork{
+    display: inline-block;
+    text-align: right;
+    margin-left: 70px;
+    @media screen and (min-width:769px){
+      display: block;
+    }
+    p{
+      margin:0;
+      text-decoration: none;
+      font-family:$font-base;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      color:$white;
+    }
+  }
+  .imaga{
+    display: block;
+    margin-top:30px;
+    @media screen and (min-width:769px){
+      display: block;
+      text-align: right;
+      opacity: 0.3;
+      margin-top: 15px;
+    }
+    img{
+      margin-left: 38px;
+      width: 42px;
+      height: 42px;
+      opacity: 0.4;
+      @media screen and (min-width:769px){
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+  .certification{
+    display: block;
+    bottom: 10px;
+    right:25px;
+    float: right;
+    text-decoration: none;
+    font-family: $font-base;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color:$white;;
+    @media screen and (min-width:769px){
+      display: block;
+      bottom: 10px;
+      right:25px;
+      float: right;
+      text-decoration: none;
+      font-family: $font-base;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      color:$white;
+    }
+  }
+}

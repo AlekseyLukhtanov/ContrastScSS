@@ -1,0 +1,22 @@
+.textBaner{
+  width: 100%;
+  display: block;
+  position: absolute;
+  top:230px;
+  text-align: center;
+  left: 0;
+  @media screen and (min-width:769px){
+    display: block;
+    position: absolute;
+}
+  p{
+    font-size: 30px;
+    font-family:$font-base;
+    color: $white;
+    @media screen and (min-width:769px){
+      font-size: 32px;
+      font-family:$font-base;
+      color: $white;
+    }
+  }
+}
